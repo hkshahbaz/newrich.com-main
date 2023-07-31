@@ -1,0 +1,64 @@
+{
+    "fields": [
+      {
+        "field_name": "Name",
+        "field_id": "name",
+        "field_read_permission": "admin",
+        "field_write_permission": "admin",
+        "default_value": "",
+        "field_type": "text",
+        "options": []
+      },
+      {
+        "field_name": "Email",
+        "field_id": "email",
+        "field_read_permission": "admin",
+        "field_write_permission": "admin",
+        "default_value": "",
+        "field_type": "text",
+        "options": []
+      },
+      {
+        "field_name": "Subject",
+        "field_id": "subject",
+        "field_read_permission": "user",
+        "field_write_permission": "admin",
+        "default_value": "",
+        "field_type": "text",
+        "options": []
+      },
+      {
+        "field_name": "Message",
+        "field_id": "message",
+        "field_read_permission": "user",
+        "field_write_permission": "admin",
+        "default_value": "",
+        "field_type": "textarea",
+        "options": []
+      },
+      {
+        "field_name": "Gender",
+        "field_id": "gender",
+        "field_read_permission": "user",
+        "field_write_permission": "user",
+        "default_value": "",
+        "field_type": "radio",
+        "options": [
+          "Male",
+          "Female",
+          "Other"
+        ]
+      },
+      {
+        "field_name": "Submit",
+        "field_id": "submit",
+        "field_read_permission": "admin",
+        "field_write_permission": "admin",
+        "default_value": "",
+        "field_type": "submit",
+        "options": []
+      }
+      
+    ]
+  }
+  
